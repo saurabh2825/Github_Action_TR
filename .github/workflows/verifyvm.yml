@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Bye World suman ubuntu system"
- my-third-job:
+  my-third-job:
     runs-on: macos-latest
     steps:
       - run: echo "Bye World suman mac OS system"
