@@ -2,7 +2,7 @@ name: verifyvm Workflow
 on: workflow_dispatch
 jobs: 
   my-first-job:
-    runs-on: window-latest
+    runs-on: windows-latest
     steps:
       - run: echo "Hello World saurabh suman window machin"
   my-second-job:
