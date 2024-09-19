@@ -1,0 +1,13 @@
+name: 08-05-Contexts - Outputs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Define Workflow Variable
+        id: set_var
+        run: |
+          echo "DEBUG: ${{vars.debug}}" 
